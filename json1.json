@@ -1,12 +1,34 @@
 {
-    "username":"Gabriel",
-    "age":23,
-    "status":true,
-    "carer":null,
-    "skills":["html","php","javescript"],
-    "knowledge":{
-        "css":"bassic",
-        "html":"full",
-        "php":["bassics","oop","debugging"]
-    }
-}
+    "username": "Gabriel",
+    "age": 23,
+    "status": true,
+    "carer": null,
+    "skills": [
+        "html",
+        "php",
+        "javescript"
+    ],
+    "knowledge": {
+        "css": "bassic",
+        "html": "full",
+        "php": [
+            "bassics",
+            "oop",
+            "debugging"
+        ]
+    },
+    "Skillsprogress": [
+        {
+            "css": "14% bassics",
+            "template": "40%"
+        },
+        {
+            "php": "100% bassics",
+            "oop": "100%",
+            "project": [
+                "90% design",
+                "100% programming"
+            ]
+        }
+    ]
+}   
