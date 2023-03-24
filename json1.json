@@ -4,9 +4,15 @@
     "status": true,
     "carer": null,
     "skills": [
-        "html",
-        "php",
-        "javescript"
+        [
+            "html",
+            "php",
+            "javescript"
+        ],
+        [
+            "selling",
+            "speech"
+        ]
     ],
     "knowledge": {
         "css": "bassic",
@@ -27,8 +33,12 @@
             "oop": "100%",
             "project": [
                 "90% design",
-                "100% programming"
+                "100% programming",
+                {
+                    "delevered":true,
+                    "errors":"2 Errors"
+                }
             ]
         }
     ]
-}   
+}
