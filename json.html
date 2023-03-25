@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+
+<body>
+
+    <script>
+        //when we receive data
+        let myJsObject = '{"username":"gabriel","age":23,"address":"homs"}';
+        //change string type to object for process
+        let myJsonObject = JSON.parse(myJsObject);
+
+        console.log(myJsObject);
+        console.log(typeof myJsObject);
+        console.log(myJsonObject);
+        console.log(typeof myJsonObject);
+
+        //when we send data
+        let myJsObject1 = {"username":"gabriel","age":23,"address":"homs"};
+        //change string type to object for process
+        let myJsonObject1 = JSON.stringify(myJsObject1);
+
+        console.log(myJsObject1);
+        console.log(typeof myJsObject1);
+        console.log(myJsonObject1);
+        console.log(typeof myJsonObject1);
+    </script>
+
+</body>
+
+</html>
